@@ -1,0 +1,23 @@
+{
+  "name": "phr-app",
+  "version": "1.0.0",
+  "description": "PHR-Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport-jwt": "*",
+    "passport": "*"
+  },
+  "author": "Healthworks",
+  "license": "ISC",
+  "devDependencies": {}
+}
